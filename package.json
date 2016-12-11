@@ -5,7 +5,7 @@
   "main": "url-helpers.js",
   "scripts": {
     "lint": "eslint url-helpers.js tests/**/*.js",
-    "test": "jasmine"
+    "test": "echo backend tests && jasmine && echo frontend tests && karma start --single-run"
   },
   "pre-commit": [
     "lint",
