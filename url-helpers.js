@@ -9,7 +9,7 @@
         module.exports = factory(require('string-helpers'));
     } else {
         // Browser globals (root is window)
-        root['url-helpers'] = factory(root.stringHelpers);
+        root.urlHelpers = factory(root.stringHelpers);
     }
 } (this, function (stringHelpers) {
 
