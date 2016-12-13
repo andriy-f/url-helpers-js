@@ -19,6 +19,9 @@
 
     /**
      * Combine url fragments
+     * 
+     * @param {string} baseUrl base url for concatenation
+     * @param {string} fragment fragment to append to base
      */
     function combine(baseUrl, fragment) {
             var stringUtils = stringHelpers.stringUtils,
