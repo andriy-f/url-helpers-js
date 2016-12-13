@@ -25,6 +25,7 @@
     "url": "https://github.com/johnsmith9264/url-helpers-js/issues"
   },
   "homepage": "https://github.com/johnsmith9264/url-helpers-js#readme",
+  "types": "./url-helpers.d.ts",
   "devDependencies": {
     "eslint": "^3.12.0",
     "jasmine": "^2.5.2",
